@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:singleSelection="true"
+    android:background="#004C0F">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip1"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip2"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip3"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip5"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip6"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip7"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip8"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip9"
+        style="@style/CustomChipChoice"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+</com.google.android.material.chip.ChipGroup>
